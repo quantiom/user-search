@@ -16,7 +16,7 @@ node index -u <username>
 ```
 
 ## Adding/Removing Websites
-To add or remove websites, type `node manageSites` and follow the instructions.
+To add or remove websites, run the `manageSites.js` script by typing `node manageSites` in console, and follow the instructions.
 All the websites are stored in `sites.json`, so you can edit manually instead.
 
 ## Credits
