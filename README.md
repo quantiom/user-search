@@ -1,8 +1,8 @@
 ## User-Search
- Find users by username on many different websites.
+ Find users by username on many different websites. (supports multithreading)
 
 ## Requirements
-- `node` (https://nodejs.org)
+- `node v12+` (https://nodejs.org)
 - `npm`
 
 ## Installation
@@ -12,7 +12,7 @@ In a command prompt in your projects folder, run the following:
 git clone https://github.com/quantiom/user-search.git
 cd user-search
 npm install # or use yarn
-node index -u <username>
+node index -u <username> -t 5 # five threads
 ```
 
 ## Adding/Removing Websites
